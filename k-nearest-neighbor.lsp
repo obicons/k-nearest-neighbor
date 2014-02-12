@@ -24,7 +24,7 @@
   (cons (* (car point) x-factor) (cons (* (cadr point) y-factor) (cdrdr point))))
 
 (defun get-this-y (graph &optional (function #'>))
-  (let ((this-y (car (cdr (car graph)))))
+  (let ((this-y (cadar graph)))
     (mapcar 
      #'(lambda (point) 
          (if (funcall function (cadr point) this-y) 
