@@ -1,5 +1,5 @@
 # JARVIS
-* JARVIS: Just A Rather Very Intelligent System *
+*JARVIS: Just A Rather Very Intelligent System*
 
 Hopefully Marvel won't come after me for playfully using Iron Man's AI butler as the name of this system. 
 
