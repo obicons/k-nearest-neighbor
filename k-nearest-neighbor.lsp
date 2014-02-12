@@ -27,8 +27,8 @@
   (let ((this-y (car (cdr (car graph)))))
     (mapcar 
      #'(lambda (point) 
-       (if (funcall function (car (cdr point)) this-y) 
-           (setq this-y (car (cdr point)))))
+         (if (funcall function (cadr point) this-y) 
+             (setq this-y (cadr point))))
      graph)
     this-y))
 
