@@ -16,6 +16,7 @@ Essentially, you give JARVIS a file with data like this:
 ~~~~
 And run the command:
 > jarvis given this \<file-name\> what is (\<x y\>)
+
 And it will try to answer your question.
 
 ## What needs done?
