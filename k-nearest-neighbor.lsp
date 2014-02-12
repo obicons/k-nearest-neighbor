@@ -4,13 +4,13 @@
   (sqrt (+ (expt (- (car point-a) (car point-b)) 2) (expt (- (cadr point-a) (cadr point-b)) 2))))
 
 ;; compares points
-(let ((point '(0 0)))
+(let ((point (list 0 0)))
 
   (defun set-point (p) 
     (setq point p))
 
   (defun compare-points (point-a point-b &optional (function #'<))
-    (funcall function (find-distance point-a '(0 0)) (find-distance point-b point))))
+    (funcall function (find-distance point-a point) (find-distance point-b point))))
 
 (defun get-nearest-points (point graph &key (max-size 3))
   "Returns a list of items closest to the point specified"
