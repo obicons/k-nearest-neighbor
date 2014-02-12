@@ -15,7 +15,7 @@ Essentially, you give JARVIS a file with data like this:
 (999 1009.2 that-type)
 ~~~~
 And run the command:
-> jarvis given this <file-name> what is (<x y>)
+> jarvis given this \<file-name\> what is (\<x y\>)
 And it will try to answer your question.
 
 ## What needs done?
