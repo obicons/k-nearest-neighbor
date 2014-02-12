@@ -6,6 +6,7 @@ Hopefully Marvel won't come after me for playfully using Iron Man's AI butler as
 ## What is JARVIS?
 
 I started playing around with Machine Learning a few months ago, and I've always been an Iron Man fan. I decided to write a (fun) little program in Common Lisp that demonstrates the nearest-neighbor algorithm. I used Common Lisp because:
+
 1. I know it.
 2. It's easy to work with.
 
