@@ -42,7 +42,7 @@
     this-x))
 
 (defun normalize-graph (graph)
-  (let ((greatest-x (get-this-x graph)) (greatest-y (get-this-y graph)) (graph-size (length graph)) (ret (list)))
+  (let ((greatest-x (get-this-x graph)) (greatest-y (get-this-y graph)) (ret (list)))
     (mapcar 
      #'(lambda (point) 
        (setq ret (append ret (list (normalize-point point :x-factor (/ 1.0 greatest-x) :y-factor (/ 1.0 greatest-y))))))
