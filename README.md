@@ -23,3 +23,8 @@ And it will try to answer your question.
 ## What needs done?
 
 I still need to read input from a file and do a few more things to make JARVIS actually usable. A lot of the hardwork is done, though.
+
+## TODO
+   * Implement file reader so we can work with user's data.
+   * Take user's data, normalize it, and graph it.
+   * Find the points closest to our unknown.
