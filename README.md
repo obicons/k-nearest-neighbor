@@ -26,5 +26,5 @@ And it will try to answer your question.
 
 ## Example Usage
 ~~~~
-clisp main.lsp given this \"test-config\" what is \(100\ 2\)
+clisp main.lsp given this \"test-config\" what is \'\(100\ 2\)
 ~~~~
