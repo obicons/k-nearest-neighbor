@@ -62,6 +62,4 @@ I still need to read input from a file and do a few more things to make JARVIS a
    * Find the points closest to our unknown.
 
 ## Example Usage 
-~~~~
-clisp main.lsp test-config \(100\ 2\)
-~~~~
+> clisp main.lsp test-config \(100\ 2\)
