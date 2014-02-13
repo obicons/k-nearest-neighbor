@@ -60,6 +60,3 @@ I still need to read input from a file and do a few more things to make JARVIS a
    * Implement file reader so we can work with user's data.
    * Take user's data, normalize it, and graph it.
    * Find the points closest to our unknown.
-
-## Example Usage 
-> clisp main.lsp test-config \\(100\\ 2\\)
