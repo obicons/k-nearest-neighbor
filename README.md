@@ -28,4 +28,6 @@ I still need to read input from a file and do a few more things to make JARVIS a
    * Make installer
    * Make nicer to work with.
 
-
+~~~~
+clisp main.lsp test-config \\(100\\ 2\\)
+~~~~
