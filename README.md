@@ -20,10 +20,6 @@ And run the command:
 
 And it will try to answer your question.
 
-## What needs done?
-
-I still need to read input from a file and do a few more things to make JARVIS actually usable. A lot of the hardwork is done, though.
-
 ## TODO
    * Make installer
    * Make nicer to work with.
