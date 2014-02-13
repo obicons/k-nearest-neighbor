@@ -1,0 +1,3 @@
+#!/bin/bash
+
+clisp main.lsp $1 $2
