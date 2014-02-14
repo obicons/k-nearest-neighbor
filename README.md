@@ -28,3 +28,6 @@ And it will try to answer your question.
 ~~~~
 clisp main.lsp given this \"test-config\" what is \'\(2\ 100\)
 ~~~~
+
+## License 
+Released under GPL v. 3+
