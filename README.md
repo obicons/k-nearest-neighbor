@@ -7,7 +7,7 @@ I started playing around with Machine Learning a few months ago. I decided to wr
 1. I know it.
 2. It's easy to work with.
 
-Essentially, you give JARVIS a file with data like this:
+Essentially, you give k-nearest-neighbor a file with data like this:
 ~~~~
 (3 5 this-type)
 (999 1009.2 that-type)
